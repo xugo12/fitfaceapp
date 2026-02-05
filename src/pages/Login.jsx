@@ -28,7 +28,7 @@ const Login = () => {
     return (
         <div className="onboarding-container fade-in">
             <div className="onboarding-slide">
-                <img src="/logo 1.png" className="logo-image" alt="Fit Face Logo" />
+                <img src="/logo.png" className="logo-image" alt="Fit Face Logo" />
                 <h1 style={{ fontSize: '24px', marginBottom: '32px' }}>Área de Alumnos</h1>
 
                 <form onSubmit={handleSubmit} className="auth-form" style={{ width: '100%' }}>
