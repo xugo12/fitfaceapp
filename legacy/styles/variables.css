@@ -1,0 +1,47 @@
+:root {
+    /* Colors - Feminine & Clean Palette */
+    --primary-color: #d4a373; /* Champagne/Gold accent */
+    --primary-light: #faedcd;
+    
+    --bg-color: #fffcf9; /* Off-white warm */
+    --bg-card: #ffffff;
+    
+    --text-primary: #4a4a4a;
+    --text-secondary: #8d8d8d;
+    --text-inverted: #ffffff;
+    
+    --accent-pink: #f4acb7;
+    --accent-soft: #ffe5d9;
+    
+    --status-success: #9dcd5a;
+    --status-error: #e76f51;
+
+    /* Typography */
+    --font-family: 'Outfit', sans-serif;
+    
+    /* Spacing */
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
+    
+    /* Border Radius */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 20px;
+    --radius-full: 999px;
+    
+    /* Shadows */
+    --shadow-sm: 0 2px 8px rgba(0,0,0,0.05);
+    --shadow-md: 0 4px 12px rgba(149, 157, 165, 0.1);
+}
+
+/* Dark Mode Support (Optional/Start) */
+@media (prefers-color-scheme: dark) {
+    /* :root {
+        --bg-color: #1a1a1a;
+        --bg-card: #2d2d2d;
+        --text-primary: #f0f0f0;
+    } */
+}
